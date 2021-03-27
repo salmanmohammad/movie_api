@@ -1,0 +1,154 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Sass Landing Page,
+    Template URI: site.com
+    Description: Sass Landing Page,
+    Author: Uideck
+    Author URI: https://uideck.com/
+    Support: https://uideck.com/support/
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    01.COMMON 
+    02.HEADER
+    03.BRAND
+    04.SERVICES
+    05.ABOUT
+    06.VIDEO COUNTER
+    07.TEAM
+    08.TESTIMONIAL
+    09.BLOG
+    10.SUBSCRIBE
+    11.FOOTER
+
+-----------------------------------------------------------------------------------*/
+/*===========================
+     01.COMMON css 
+===========================*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700|Lato:300,400,700&display=swap");
+body {
+  min-height: 100vh;
+
+  background-color: #FFE53B;
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #2E2E2E;
+  margin: 0px; }
+
+h1 {
+  font-size: 48px; }
+
+h2 {
+  font-size: 36px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 22px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }
+
+ul, ol {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none; }
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #6A6972;
+  margin: 0px; }
+
+.bg_cover {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%; }
+/*===== HEADER HERO =====*/
+.header-hero {
+  position: relative;
+  z-index: 5;
+  background-position: bottom center; }
+
+#particles-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; }
+
+.header-hero-content {
+  padding-top: 30px; }
+  @media (max-width: 767px) {
+    .header-hero-content {
+      padding-top: 30px; } }
+  .header-hero-content .header-sub-title {
+    font-size: 38px;
+    font-weight: 300;
+    color: #fff; }
+    @media (max-width: 767px) {
+      .header-hero-content .header-sub-title {
+        font-size: 24px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .header-hero-content .header-sub-title {
+        font-size: 30px; } }
+  .header-hero-content .header-title {
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff; }
+    @media (max-width: 767px) {
+      .header-hero-content .header-title {
+        font-size: 24px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .header-hero-content .header-title {
+        font-size: 30px; } }
+  .header-hero-content{
+    color: #fff;
+    margin-top: 30px; }
+  .header-hero-content {
+    margin-top: 40px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
