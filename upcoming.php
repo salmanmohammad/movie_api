@@ -1,6 +1,6 @@
 <?php
-include("includes/upcomingmovies.php");
-$trm = new upcomingmovies();
+include("includes/movies.php");
+$trm = new movies();
 
 $movies = $trm->getupcomingMovies();
 $movies_array = json_decode($movies,true);
