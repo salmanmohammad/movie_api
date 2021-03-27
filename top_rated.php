@@ -1,6 +1,6 @@
 <?php
-include("includes/topratedmovies.php");
-$trm = new topratedmovies();
+include("includes/movies.php");
+$trm = new movies();
 
 $movies = $trm->getTopRatedMovies();
 $movies_array = json_decode($movies,true);
